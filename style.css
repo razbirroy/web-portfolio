@@ -18,9 +18,11 @@ h1{
 .half-width img{
 width: 80%;
 margin-left: 100px;
+border-radius: 20px;
+box-shadow: 10px 20px 30px gray;
 }
 .top-background{
-    border: 1px solid red;
+   
     background-image: url("1.png");
     background-repeat: no-repeat;
 }
@@ -32,7 +34,7 @@ section{
 }
 .anchor{
    text-decoration: none;
-   border: 1px solid red;
+
    padding: 5px 13px;
    list-style: none;
    background-image: linear-gradient(45deg,lightsalmon,tomato);
@@ -41,7 +43,7 @@ section{
    font-weight: 700;
 }
 .middle-background{
-    border: 1px solid red;
+  
     background-image: url("2.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -56,7 +58,7 @@ section{
 }
 .anchor2{
     text-decoration: none;
-    border: 1px solid red;
+ 
     padding: 5px 20px;
     background-image: linear-gradient(45deg,lightsalmon,tomato);
     color: white;
@@ -100,4 +102,8 @@ footer p{
     font-size: 12px;
     text-align: center;
 }
-
+.divtag ul li {
+    padding: 0px;
+    margin: 2px;
+    color: dimgray;
+}
